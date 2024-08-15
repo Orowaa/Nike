@@ -30,7 +30,6 @@ grid-cols-1 sm:gap-5 gap-14"
         {products.map((product) => (
           <PopularProductsCard key={product.name} {...product} />
         ))}
-        ;
       </div>
     </section>
   );

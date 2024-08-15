@@ -1,16 +1,12 @@
 import { useState } from "react";
-import Button from "../components/Button";
+import { Button } from "../components/Button";
 import { arrowRight } from "../assets/icons";
 import { statistics, shoes } from "../constants";
 import { bigShoe1 } from "../assets/images";
 import ShoeCard from "../components/ShoeCard.jsx";
 
 export const Hero = () => {
-
-  const [bigShoeImg, setbigShoeImg] = useState(bigShoe1)
-
-
-
+  const [bigShoeImg, setbigShoeImg] = useState(bigShoe1);
 
   return (
     <section
@@ -84,10 +80,12 @@ w-full max-xl:padding-x pt-28
           className="object-contain realtive z-10"
         />
 
-        <div className="
+        <div
+          className="
         flex sm:gap-6 gap-4 absolute -bottom-[5%]
         sm:left-[10%] max-sm:px-6
-        ">
+        "
+        >
           {shoes.map((shoe) => (
             <div key={shoe}>
               <ShoeCard
