@@ -1,5 +1,6 @@
 import { Button } from "../components/Button";
 import { shoe8 } from "../assets/images";
+import { arrowRight } from "../assets/icons";
 
 export const SuperQuality = () => {
   return (
@@ -22,8 +23,10 @@ export const SuperQuality = () => {
           Notre engagement envers le détail et l'excellence assure votre entière
           satisfaction.
         </p>
-        <div className="mt-11">
-          <Button label="Voir les détails" />
+        <div className="mt-11 ">
+          <Button label="Acheter" 
+          iconURL={arrowRight}
+          />
         </div>
       </div>
       <div className="flex-1 flex justify-center items-center">

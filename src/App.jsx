@@ -12,7 +12,7 @@ import { Nav } from "./components/Nav";
 
 const App = () => (
   <main className="relative">
-   <Nav /> 
+    <Nav />
     <section className="xl:padding-1 wide:padding-r padding-b">
       <Hero />
     </section>
@@ -28,7 +28,7 @@ const App = () => (
     <section className="padding">
       <SpecialOffer />
     </section>
-    <section className="bg-pale-blue padding">
+    <section className="bg-gray-500 padding">
       <CustomerReviews />
     </section>
     <section className="padding-x sm:py32 py-16 w-full">
